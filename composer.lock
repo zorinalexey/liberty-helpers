@@ -1,0 +1,102 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f44dc34adfc8666c29886091a940f827",
+    "packages": [
+        {
+            "name": "liberty/cache",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zorinalexey/liberty-cache.git",
+                "reference": "ef59dd8e17e16b1f19e88ea232e167fb74fb6642"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zorinalexey/liberty-cache/zipball/ef59dd8e17e16b1f19e88ea232e167fb74fb6642",
+                "reference": "ef59dd8e17e16b1f19e88ea232e167fb74fb6642",
+                "shasum": ""
+            },
+            "require": {
+                "liberty/file-system": "^1.0",
+                "php": ">=8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Liberty\\Cache\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Алексей Зорин",
+                    "email": "zorinalexey59292@gmail.com"
+                }
+            ],
+            "description": "Библиотека для кеширования данных в файлах",
+            "support": {
+                "issues": "https://github.com/zorinalexey/liberty-cache/issues",
+                "source": "https://github.com/zorinalexey/liberty-cache/tree/1.0.1"
+            },
+            "time": "2023-01-05T14:23:35+00:00"
+        },
+        {
+            "name": "liberty/file-system",
+            "version": "1.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zorinalexey/liberty-file-system.git",
+                "reference": "ace7fea1eccd3cc27ab4bec5a9e687c7f0d3b77f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zorinalexey/liberty-file-system/zipball/ace7fea1eccd3cc27ab4bec5a9e687c7f0d3b77f",
+                "reference": "ace7fea1eccd3cc27ab4bec5a9e687c7f0d3b77f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Liberty\\FileSystem\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Алексей Зорин",
+                    "email": "zorinalexey59292@gmail.com"
+                }
+            ],
+            "description": "Библиотека классов для работы с файловой системой",
+            "support": {
+                "issues": "https://github.com/zorinalexey/liberty-file-system/issues",
+                "source": "https://github.com/zorinalexey/liberty-file-system/tree/1.0.6"
+            },
+            "time": "2023-01-05T14:01:24+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=8.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}

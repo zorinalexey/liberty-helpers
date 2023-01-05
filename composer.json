@@ -1,0 +1,26 @@
+{
+    "name": "liberty/helpers",
+    "description": "test",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Liberty\\Helpers\\": "src/"
+        },
+        "files":[
+            "src/polifil.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Алексей Зорин",
+            "email": "zorinalexey59292@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0",
+        "liberty/file-system":">=1.0",
+        "liberty/cache":">=1.0"
+    }
+}
