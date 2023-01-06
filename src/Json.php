@@ -4,11 +4,6 @@ declare(strict_types = 1);
 
 namespace Liberty\Helpers;
 
-use stdClass;
-use Liberty\Cache\Cache;
-use Liberty\Cache\Settings;
-use Liberty\FileSystem\File;
-
 /**
  * Класс Json
  * @version 0.0.1

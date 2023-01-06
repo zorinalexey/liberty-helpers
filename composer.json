@@ -6,10 +6,7 @@
     "autoload": {
         "psr-4": {
             "Liberty\\Helpers\\": "src/"
-        },
-        "files":[
-            "src/polifil.php"
-        ]
+        }
     },
     "authors": [
         {
@@ -19,7 +16,6 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "php": ">=8.0",
-        "liberty/file-system":">=1.0"
+        "php": ">=8.0"
     }
 }
